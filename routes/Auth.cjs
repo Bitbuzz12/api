@@ -1,7 +1,7 @@
 const router= require('express').Router();
 
 
-const handle = require("../controllers/index");
+const handle = require("../controllers/index.cjs");
 
 router.post('/register', handle.register);
 
